@@ -17,13 +17,31 @@ Mail Bonus
 // -const/let,
 // -prompt,
 
-// Fare una lista di utenti che possono accedere
-const userList = ['Pippo', 'Pluto', 'Topolino'];
-console.log(userList);
+
+
+// LIsta email
+const emailList = [
+  'pippo@live.it',
+  'pluto@live.it',
+  'topolino@live.it'
+];
 
 // Chiedi all’utente la sua email
-const emailEl = prompt('Inserisci la tua email')
-console.log('L\'email è: ', emailEl)
+const emailEl = prompt('Inserisci la tua email');
+console.log('L\'email è: ', emailEl);
+
+let flag = false;
 // Controlla che sia nella lista di chi può accedere
+for (let i = 0; i < emailList.length; i++) {
+  if (emailList[i] === emailEl) {
+    flag = true;
+  }
+  
+}
 
 // Stampa un messaggio appropriato sull’esito del controllo
+if (flag != 0) {
+  console.log('L\' utente può accedere');
+} else {
+  console.log('L\' utente non può accedere');
+}
