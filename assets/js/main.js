@@ -19,10 +19,11 @@ Mail Bonus
 
 // Fare una lista di utenti che possono accedere
 const userList = ['Pippo', 'Pluto', 'Topolino'];
+console.log(userList);
 
 // Chiedi all’utente la sua email
 const emailEl = prompt('Inserisci la tua email')
-
+console.log('L\'email è: ', emailEl)
 // Controlla che sia nella lista di chi può accedere
 
 // Stampa un messaggio appropriato sull’esito del controllo
