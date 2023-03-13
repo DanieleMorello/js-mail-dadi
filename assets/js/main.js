@@ -12,3 +12,17 @@ Mail Bonus
    -Che ci sia un array da qualche parte?
    -Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 */
+
+// STRUMENTI:
+// -const/let,
+// -prompt,
+
+// Fare una lista di utenti che possono accedere
+const userList = ['Pippo', 'Pluto', 'Topolino'];
+
+// Chiedi all’utente la sua email
+const emailEl = prompt('Inserisci la tua email')
+
+// Controlla che sia nella lista di chi può accedere
+
+// Stampa un messaggio appropriato sull’esito del controllo
